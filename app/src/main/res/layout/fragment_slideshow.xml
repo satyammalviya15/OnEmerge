@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/permissions_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permission Settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <Switch
+            android:id="@+id/switch_internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internet" />
+
+        <Switch
+            android:id="@+id/switch_call_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Phone" />
+
+        <Switch
+            android:id="@+id/switch_fine_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Access Fine Location" />
+
+        <Switch
+            android:id="@+id/switch_coarse_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Access Coarse Location" />
+
+        <Switch
+            android:id="@+id/switch_send_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS" />
+
+    </LinearLayout>
+</ScrollView>

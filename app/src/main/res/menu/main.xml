@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/siren"
+        android:id="@+id/action_police"
+        android:orderInCategory="100"
+        android:title="Police Stations"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/medicine"
+        android:id="@+id/action_hospital"
+        android:orderInCategory="100"
+        android:title="Hospitals"
+        app:showAsAction="never" />
+    <item
+        android:icon="@drawable/logout"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
